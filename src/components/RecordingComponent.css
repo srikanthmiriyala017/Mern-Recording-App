@@ -1,0 +1,28 @@
+.recording-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.recording-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.recording-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.recording-button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
